@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+    /* box-model */
     width: 50%;
     margin: 50px auto;
     background-color: #fff;
@@ -19,6 +20,7 @@ h1 {
 }
 
 form {
+    /* flex-box */
     display: flex;
     flex-direction: column;
 }
@@ -29,6 +31,7 @@ label {
 }
 
 input {
+    /* box-model */
     margin-top: 5px;
     padding: 10px;
     border: 1px solid #ddd;

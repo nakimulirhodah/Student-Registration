@@ -5,6 +5,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     const lastName = document.getElementById('lastName').value;
     const email = document.getElementById('email').value;
 
+    //student object
     const student = {
         firstName: firstName,
         lastName: lastName,
